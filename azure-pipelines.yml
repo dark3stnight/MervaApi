@@ -17,7 +17,7 @@ steps:
   displayName: 'Use .NET SDK'
   inputs:
     packageType: 'sdk'
-    version: '9.x'
+    version: '10.x'
 
 - task: DotNetCoreCLI@2
   displayName: 'Restore'
